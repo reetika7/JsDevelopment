@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+  <title>Digital Clock</title>
+  <style>
+    body { 
+      font-family: 'Audiowide', cursive;
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 100vh; 
+      font-size: 3em; 
+      background: linear-gradient(335deg, #644fe8, rgb(109, 199, 229));
+      color: #222;
+    }
+    .wrapper{
+      border-radius: 15px;
+      width: 400px;
+      height: 400px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      text-align: center;
+    }
+    #date, #time{
+      font-size: 40px;
+    }
+    </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h4 id="clock"> Digital Clock</h4>
+    <div id="time"></div>
+    <div id="date"></div>
+  </div>
+
+  <script src="./JsFiles/digitalClock.js"></script>
+</body>
+</html>
